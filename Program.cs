@@ -16,8 +16,8 @@ namespace dataValidation
 
             Connection connection = new Connection();
             connection.StartConnection();
-            string databaseName = "AllTenants";
-            string collectionName = "Tenants";
+            string databaseName = "WhateverDataBase";
+            string collectionName = "WhateverCollection";
 
             string connectionString = new Connection().connectionString;
             var cliente = new MongoClient(connectionString);
